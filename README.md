@@ -2,6 +2,8 @@
 
 Exposes helper integrations through the WordPress REST API so MCP tools can
 update metadata without extra configuration.
+Intended for use with the WordPress MCP server:
+https://github.com/jahzlariosa/wordpress-mcp.
 
 ## Install
 
