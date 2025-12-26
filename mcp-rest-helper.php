@@ -3,7 +3,7 @@
  * Plugin Name: MCP REST Helper
  * Plugin URI: https://github.com/jahzlariosa/mcp-rest-helper
  * Description: Provides REST API helper integrations (like Yoast SEO meta) for MCP tooling, designed for the WordPress MCP server.
- * Version: 0.1.3
+ * Version: 0.1.4
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Joseph Lariosa
@@ -11,8 +11,6 @@
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: mcp-rest-helper
- * Domain Path: /languages
- * Update URI: false
  */
 
 if (!defined("ABSPATH")) {
@@ -20,7 +18,7 @@ if (!defined("ABSPATH")) {
 }
 
 if (!defined("MCP_REST_HELPER_VERSION")) {
-  define("MCP_REST_HELPER_VERSION", "0.1.3");
+  define("MCP_REST_HELPER_VERSION", "0.1.4");
 }
 
 if (!defined("MCP_REST_HELPER_PATH")) {
@@ -40,13 +38,3 @@ foreach ($integration_files as $integration_file) {
     require_once $integration_file;
   }
 }
-
-function mcp_rest_helper_load_textdomain() {
-  load_plugin_textdomain(
-    "mcp-rest-helper",
-    false,
-    dirname(plugin_basename(__FILE__)) . "/languages"
-  );
-}
-
-add_action("plugins_loaded", "mcp_rest_helper_load_textdomain");

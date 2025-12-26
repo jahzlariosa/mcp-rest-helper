@@ -4,7 +4,7 @@ Tags: rest-api, seo, yoast, mcp
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.1.3
+Stable tag: 0.1.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,10 @@ Current integrations:
 No. Standard Yoast fields work with free Yoast SEO. Premium-only fields are registered but require Yoast Premium to take effect.
 
 == Changelog ==
+= 0.1.4 =
+* Remove disallowed headers and auto-loading translations.
+* Remove hidden files from the distribution package.
+
 = 0.1.3 =
 * Rename plugin to comply with WordPress.org naming rules.
 
@@ -39,6 +43,9 @@ No. Standard Yoast fields work with free Yoast SEO. Premium-only fields are regi
 * Initial release.
 
 == Upgrade Notice ==
+= 0.1.4 =
+* Compliance fixes for WordPress.org submission.
+
 = 0.1.3 =
 * Rename plugin to MCP REST Helper for WordPress.org compliance.
 
