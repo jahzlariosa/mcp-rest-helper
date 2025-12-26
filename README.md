@@ -1,4 +1,4 @@
-# WordPress MCP Helper
+# MCP REST Helper
 
 Exposes helper integrations through the WordPress REST API so MCP tools can
 update metadata without extra configuration.
@@ -8,7 +8,7 @@ https://github.com/jahzlariosa/wordpress-mcp.
 ## Install
 
 1) Copy `mcp-rest-helper` into `wp-content/plugins/`.
-2) Activate "WordPress MCP Helper" in the WordPress admin.
+2) Activate "MCP REST Helper" in the WordPress admin.
 
 ## Integrations
 

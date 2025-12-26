@@ -1,17 +1,17 @@
-=== WordPress MCP Helper ===
+=== MCP REST Helper ===
 Contributors: jahzlariosa
 Tags: rest-api, seo, yoast, mcp
 Requires at least: 6.0
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Provides REST API helper integrations (like Yoast SEO meta) for MCP tooling.
 
 == Description ==
-WordPress MCP Helper exposes helper integrations through the WordPress REST API so MCP tools can update metadata without extra configuration.
+MCP REST Helper exposes helper integrations through the WordPress REST API so MCP tools can update metadata without extra configuration.
 It is intended for use with the WordPress MCP server: https://github.com/jahzlariosa/wordpress-mcp.
 
 Current integrations:
@@ -19,13 +19,16 @@ Current integrations:
 
 == Installation ==
 1. Copy the `mcp-rest-helper` folder into `wp-content/plugins/`.
-2. Activate "WordPress MCP Helper" in the WordPress admin.
+2. Activate "MCP REST Helper" in the WordPress admin.
 
 == Frequently Asked Questions ==
 = Does this require Yoast Premium? =
 No. Standard Yoast fields work with free Yoast SEO. Premium-only fields are registered but require Yoast Premium to take effect.
 
 == Changelog ==
+= 0.1.3 =
+* Rename plugin to comply with WordPress.org naming rules.
+
 = 0.1.2 =
 * Documentation updates and WordPress MCP server reference.
 
@@ -36,6 +39,9 @@ No. Standard Yoast fields work with free Yoast SEO. Premium-only fields are regi
 * Initial release.
 
 == Upgrade Notice ==
+= 0.1.3 =
+* Rename plugin to MCP REST Helper for WordPress.org compliance.
+
 = 0.1.2 =
 * Documentation updates for WordPress MCP server compatibility.
 
